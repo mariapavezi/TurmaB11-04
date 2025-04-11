@@ -1,0 +1,58 @@
+/* cor teclas a serem preencidas: #655256 */
+/* teclado #4A3E42 */
+/* fundo #6F5A61 */
+/* #C2B4BD */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #6f5a61;
+}
+
+h2 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Display input {
+  width: 45px;
+  height: 45px;
+  font-size: 2rem;
+  text-align: center;
+  border: 4px solid #4a3e42;
+  border-radius: 10%;
+  background-color: #6f5a61;
+  color: white;
+  text-transform: uppercase;
+  margin: 5px;
+  display: inline-block;
+  justify-content: center;
+  gap: 2px;
+}
+
+.Botoes {
+  display: grid;
+  grid-template-columns: repeat(10, 3fr);
+}
+
+.Botoes button {
+  width: 70px;
+  height: 50px;
+  border-radius: 10%;
+  border: none;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.teclado {
+  background-color: #4a3e42;
+  color: rgb(255, 255, 255);
+}
